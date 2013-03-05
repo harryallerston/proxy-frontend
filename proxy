@@ -1,0 +1,46 @@
+#! /bin/sh
+#
+
+################# Connect to server, and forward port as SOCKS proxy on port 8080 ######################
+
+clear
+
+
+echo " "
+echo "= Address of server to connect to? ="
+echo " "
+
+read IP
+
+clear
+
+echo " "
+echo "= Username? ="
+echo " "
+
+
+read USER
+
+clear
+echo " "
+echo "= Port to connect to? ="
+echo " "
+
+read PORT
+
+clear
+echo " "
+echo "= Connecting to server ="
+echo " "
+ssh -D 8080 -p$PORT $USER@$IP
+
+clear 
+echo " "
+echo "You are now disconnected"
+sleep 5
+clear
+
+
+
+
+
