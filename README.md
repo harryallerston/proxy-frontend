@@ -1,5 +1,5 @@
-simple frontend script to setup a dynamic port forward on port 8080
-of the host machine for users less confident with command line usage 
+simple frontend script to set up a SOCKS proxy on port 8080
+of the host machine for users less confident with command line usage.
 
 =============================== USAGE ==================================
 
