@@ -1,3 +1,6 @@
+proxy-frontend
+==============
+
 simple frontend script to set up a SOCKS proxy on port 8080
 of the host machine for users less confident with command line usage.
 
